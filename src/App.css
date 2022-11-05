@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  background-color: black;
+  min-height: 100vh;
+  max-height: max-content;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  color: white;
+  width: fit-content;
+  margin-left: 20px;
+}
+#searchbar {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#searchbar > input {
+  width: 200px;
+  height: 35px;
+  border: none;
+  padding: 5px 10px;
+}
+#searchbar > input:focus {
+  border: none;
+  outline: none;
+}
+#imag {
+  margin: 10px;
+}
+#imag> img {
+  border-radius: 10px;
+}
+#imag:hover {
+  transform: scale(1.1);
+}
+#imag > p {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.cinema {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+#imag > img{
+  height: 300px;
+  width: auto;
+}
